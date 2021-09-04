@@ -25,5 +25,8 @@ insert into AddressBook values
 
 UPDATE AddressBook
 SET city = 'Frankfurt', state = 'Ohio'
-WHERE firstname = 'Matthew';
+WHERE firstname = 'David';
 select * from AddressBook;
+
+DELETE FROM AddressBook WHERE firstname='Christopher'
+select * from AddressBook
