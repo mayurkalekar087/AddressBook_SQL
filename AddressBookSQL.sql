@@ -38,3 +38,5 @@ insert into AddressBook values
 ('Tyler ','Watson','4668 Grand Avenue','Memphis','Tennessee','38117','659-765-8987','sa5356la2e@temporary-mail.net')
 
 select COUNT(firstname) from AddressBook where city = 'Memphis' or state = 'Tennessee'
+
+select * from AddressBook where city = 'Memphis' order by firstname
