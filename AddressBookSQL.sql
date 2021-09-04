@@ -30,3 +30,5 @@ select * from AddressBook;
 
 DELETE FROM AddressBook WHERE firstname='Christopher'
 select * from AddressBook
+
+select firstname from AddressBook where city = 'Memphis' OR state = 'Ohio'
