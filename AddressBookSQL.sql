@@ -50,3 +50,7 @@ update AddressBook set type = 'Colleague', name = 'Office' where firstname = 'Ja
 select * from AddressBook
 
 select COUNT(firstname) from AddressBook where type = 'Friend'
+
+update AddressBook set type = 'Friend' where firstname in ('Tyler'); 
+insert into AddressBook values
+('Tyler ','Watson','4668 Grand Avenue','Memphis','Tennessee','38117','659-765-8987','sa5356la2e@temporary-mail.net','Family','FriendsBook');
